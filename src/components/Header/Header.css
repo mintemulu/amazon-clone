@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header-section {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  width: 100px;
+  cursor: pointer;
+}
+.fixed{
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.header-location {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  color: #ccc;
+}
+
+.location-text p,
+.location-text span {
+  margin: 0;
+  font-size: 12px;
+}
+
+.location-text span {
+  font-weight: bold;
+  color: white;
+}
+
+.header-search {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  margin: 0 20px;
+}
+
+.search-category {
+  height: 40px;
+  border: none;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  padding: 5px;
+  background-color: #f3f3f3;
+}
+
+.search-input {
+  height: 40px;
+  flex-grow: 1;
+  border: none;
+  padding: 0 10px;
+}
+
+.search-icon {
+  background-color:orange;
+  color: black;
+  padding: 10px;
+  height: 40px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  cursor: pointer;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+}
+.nav-account p,
+.nav-account span {
+  margin: 0;
+  font-size: 12px;
+}
+
+.nav-account span {
+  font-weight: bold;
+  color: white;
+}
+
+.nav-item:hover {
+  text-decoration: none;
+}
+.nav-orders p,
+.nav-orders span {
+  margin: 0;
+  font-size: 12px;
+}
+
+.nav-orders span {
+  font-weight: bold;
+  color: white;
+}
+.nav-flag {
+  width: 20px;
+  margin-right: 5px;
+}
+
+.nav-language {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.nav-account {
+  text-align: left;
+}
+
+.nav-account p,
+.nav-orders p,
+.nav-account span,
+.nav-orders span {
+  margin: 0;
+}
+
+.nav-orders {
+  text-align: left;
+}
+
+.nav-cart {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.cart-count {
+  background-color: #1a1a1a;
+  border-radius: 50%;
+  padding: 2px 6px;
+  position: absolute;
+  top: 0;
+  left: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  color: orange;
+}
+.header-nav a:hover,
+.header-top a:hover,
+.header-location:hover,
+.lower_container ul li:hover
+{
+  border: 1px solid white;
+  border-radius: 3px;
+}
